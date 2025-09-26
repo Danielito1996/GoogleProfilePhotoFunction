@@ -1,15 +1,16 @@
 {
-  "name": "googleprofile",
+  "name": "starter-template",
   "version": "1.0.0",
-  "description": "Function de appwrite para optener foto de perfil de google evitando restricciones por IP",
-  "main": "src/index.js",
+  "description": "",
+  "main": "src/main.js",
+  "type": "module",
   "scripts": {
-    "test": "node test/test.js"
+    "format": "prettier --write ."
   },
-  "author": "Daniel Imbert Tabares",
-  "license": "ISC",
   "dependencies": {
-    "node-appwrite": "^17.2.0",
-    "node-fetch": "^3.3.2"
+    "node-appwrite": "^14.1.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
   }
 }
